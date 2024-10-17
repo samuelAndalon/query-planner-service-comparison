@@ -1,0 +1,7 @@
+POST http://localhost:3002/build-query-plan
+content-type: application/json
+
+{
+  "operationName": "TopProducts",
+  "query": "query TopProducts($first: Int) { topProducts(first: $first) { upc name reviews { id product { name } author { id name } } } }"
+}
