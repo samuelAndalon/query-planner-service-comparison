@@ -6,10 +6,9 @@ edition = "2021"
 [dependencies]
 axum = { version = "0.7.5" }
 hyper = { version = "1.4.1", features = ["full"] }
-tokio = { version = "1.40.0", features = ["full"] }
+tokio = { version = "1.41.0", features = ["full"] }
 tower = { version = "0.5.1", features = ["load-shed", "timeout", "limit"] }
-tower-http = { version = "0.5.2", features = ["add-extension"] }
-apollo-federation = "2.0.0-alpha.5"
-apollo-compiler = "1.0.0-beta.21"
-serde_json = "1.0.128"
-serde = { version = "1.0.210", features = ["derive"] }
+apollo-federation = "2.0.0-preview.0"
+apollo-compiler = "1.0.0-beta.24"
+serde_json = "1.0.132"
+serde = { version = "1.0.214", features = ["derive"] }
