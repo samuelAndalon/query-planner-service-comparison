@@ -20,7 +20,7 @@ use tokio::net::TcpListener;
 use tower::{load_shed, timeout::error, BoxError, ServiceBuilder};
 
 const PORT: i32 = 3004;
-const FILENAME: &str = "./supergraph/supergraph.graphql";
+const FILENAME: &str = "./supergraph/schema.graphql";
 
 #[derive(Deserialize)]
 #[serde(rename_all = "camelCase")]

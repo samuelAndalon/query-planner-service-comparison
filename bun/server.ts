@@ -2,7 +2,7 @@ import { QueryPlannerService } from '../shared/query-planner-service';
 
 const port = 3001;
 const queryPlannerService = new QueryPlannerService(
-  await Bun.file('./shared/supergraph.graphql').text()
+  await Bun.file('./shared/schema.graphql').text()
 );
 
 Bun.serve({

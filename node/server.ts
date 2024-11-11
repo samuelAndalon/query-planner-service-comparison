@@ -4,7 +4,7 @@ import fs from 'fs';
 
 const port = 3000;
 const queryPlannerService = new QueryPlannerService(
-  fs.readFileSync('./shared/supergraph.graphql', 'utf-8')
+  fs.readFileSync('./shared/schema.graphql', 'utf-8')
 );
 
 express()

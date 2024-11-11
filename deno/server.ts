@@ -3,7 +3,7 @@ import fs from 'node:fs';
 
 const port = 3002;
 const queryPlannerService = new QueryPlannerService(
-  fs.readFileSync('./shared/supergraph.graphql', 'utf-8')
+  fs.readFileSync('./shared/schema.graphql', 'utf-8')
 );
 
 Deno.serve({ port }, async (req) => {
