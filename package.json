@@ -7,7 +7,7 @@
     "server:node": "ts-node node/server.ts",
     "server:bun": "bun bun/server.ts",
     "server:deno": "deno run --allow-read --allow-env --allow-net deno/server.ts",
-    "server:rust": "cd rust && cargo build --release && cargo run ./target/release/query-planner-service-rs"
+    "server:apollo": "cd apollo && cargo build --release && cargo run ./target/release/apollo-query-planner-service"
   },
   "author": "Samuel Vazquez",
   "dependencies": {
