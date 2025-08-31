@@ -1,0 +1,9 @@
+edition = "2024"
+tab_spaces = 2
+wrap_comments = true
+max_width = 120
+comment_width = 120
+brace_style = "PreferSameLine"
+imports_granularity = "Module"
+trailing_comma = "Never"
+format_code_in_doc_comments = true
